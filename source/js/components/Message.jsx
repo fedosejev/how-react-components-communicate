@@ -2,7 +2,7 @@ var React = require('react');
 
 var Message = function statelessFunctionComponentClass(props) {
   var iconImagePath = './images/';
-  iconImagePath = iconImagePath + (props.isLiked ? 'loved.png' : 'not-loved.png');
+  iconImagePath = iconImagePath + (props.isLoved ? 'loved.png' : 'not-loved.png');
 
   return (
     <span>

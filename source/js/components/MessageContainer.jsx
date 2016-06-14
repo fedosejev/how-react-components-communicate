@@ -5,24 +5,24 @@ var Button = require('./Button.jsx');
 var MessageContainer = React.createClass({  
   getInitialState: function () {
     return {
-      isLiked: false
+      isLoved: false
     };
   },
 
-  toggleLike: function () {
+  toggleLove: function () {
     this.setState({
-      isLiked: ! this.state.isLiked
+      isLoved: ! this.state.isLoved
     });
   },
 
   render: function () {
     var messageText = 'Now you know how React.js components interact with each other.';
-    var buttonText = this.state.isLiked ? 'Unlike' : 'Like';
+    var buttonText = this.state.isLoved ? 'Unlove' : 'Love';
 
     return (
       <div className="message">
-        <Message text={messageText} isLiked={this.state.isLiked} />
-        <Button text={buttonText} onClick={this.toggleLike} />
+        <Message text={messageText} isLoved={this.state.isLoved} />
+        <Button text={buttonText} onClick={this.toggleLove} />
       </div>
     );
   }
