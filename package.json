@@ -1,0 +1,33 @@
+{
+  "name": "how-react-components-communicate",
+  "version": "1.0.0",
+  "description": "Example of how React.js components communicate between each other.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedosejev/how-react-components-communicate.git"
+  },
+  "author": "Artemij Fedosejev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/how-react-components-communicate/issues"
+  },
+  "homepage": "https://github.com/fedosejev/how-react-components-communicate#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-html-minifier": "^0.1.6",
+    "gulp-uglify": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^15",
+    "react-dom": "^15"
+  }
+}
