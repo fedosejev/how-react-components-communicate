@@ -1,4 +1,6 @@
-# Example of how React.js components communicate between each other.
+# Example of how React.js components communicate between each other
+
++ See it in action: http://fedosejev.github.io/how-react-components-communicate/
 
 ## Install
 
